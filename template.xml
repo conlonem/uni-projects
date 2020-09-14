@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE categories [
+    <!ELEMENT categories (category+)>
+    <!ELEMENT category (package+)>
+    <!ATTLIST category type CDATA #REQUIRED>
+    <!ELEMENT package (name, description, cost, days, nights, stars, accomodation+, coupon?, reviews*, picture+, URL)>
+    <!ELEMENT accomodation (location, additionalcost)>
+    <!ELEMENT location (city)>
+    <!ATTLIST location country CDATA #REQUIRED>
+    <!ELEMENT city (#PCDATA)>
+    <!ELEMENT additionalcost (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+    <!ELEMENT cost (#PCDATA)>
+    <!ENTITY AUD "Australian Dollar">
+    <!ELEMENT days (#PCDATA)>
+    <!ELEMENT nights (#PCDATA)>
+    <!ELEMENT stars (#PCDATA)>
+    <!ELEMENT coupon (#PCDATA)>
+    <!ELEMENT reviews (#PCDATA)>
+    <!ELEMENT picture (#PCDATA)>
+    <!ELEMENT URL (#PCDATA)>
+]>
+
+<categories>
+    <category type="example">
+        <package>
+        <name></name>
+        <description></description>
+        <cost></cost>
+        <days></days>
+        <nights></nights>
+        <stars></stars>
+        <accomodation>
+            <location country="country">
+                <city></city>
+            </location>
+            <additionalcost></additionalcost> 
+        </accomodation>
+        <coupon></coupon>
+        <reviews></reviews>
+        <picture></picture>
+        <URL></URL>
+        </package>
+    </category>
+</categories>

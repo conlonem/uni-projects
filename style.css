@@ -1,61 +1,96 @@
 body {
     background: url(images/background.png) no-repeat center center fixed;
     background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .grid {
     display: grid;
-    grid-template-columns: 10em 10em 10em 10em auto;
-    grid-template-rows: 10em 15em auto 15em auto;
+    grid-template-columns: 20% 20% 20% 20% auto;
+    grid-template-rows: 5em 5em auto 5em auto;
 }
 
 .navimg {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
+    justify-self: left;
+    background-color: aquamarine;
+}
+
+.navimg img {
+    height: 100%;
+    width: 50%;
 }
 
 .navhome {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+    background-color: blueviolet;
+}
+
+.navhome a {
+    margin: 1em 1em 1em 1em;
+    padding: 1em 1em 1em 1em;
 }
 
 .navabout {
     grid-column: 3 / 4;
     grid-row: 1 / 2;
+    background-color: crimson;
 }
 
 .navpkg {
     grid-column: 4 / 5;
     grid-row: 1 / 2;
+    background-color: yellow;
 }
 
 .title {
     grid-column: 1 / 5;
     grid-row: 2 / 3;
+    align-self: center;
+    background-color: yellowgreen;
+}
+
+.title h1 {
+    margin: 0em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
 }
 
 .heroimg {
     grid-column: 1 / 6;
     grid-row: 3 / 4;
+    background-color: burlywood;
 }
 
 .about {
     grid-column: 1 / 5;
     grid-row: 4 / 5;
+    align-self: center;
+    background-color: chocolate;
+}
+
+.about h2 {
+    margin: 0px;
+    padding: 0.5em 0.5em 0.5em 0.5em;
 }
 
 #about-p {
     grid-column: 1 / 4;
     grid-row: 5 / 6;
-    justify-self: start;
-    width: 50%;
+    background-color: darkolivegreen;
+}
+
+.about-p p {
+    margin: 0px;
+    padding: 1em 1em 1em 1em;
 }
 
 #about-img {
     grid-column: 4 / 6;
     grid-row: 5 / 6;
     justify-self: end;
-    width: 50%;
+    background-color: darkslategrey;
 }
 
 li {
