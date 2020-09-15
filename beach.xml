@@ -13,7 +13,7 @@
     <!ELEMENT name (#PCDATA)>
     <!ELEMENT description (#PCDATA)>
     <!ELEMENT cost (#PCDATA)>
-    <!ENTITY AUD "Australian Dollar">
+    <!ENTITY AUD "Australian Dollars">
     <!ELEMENT days (#PCDATA)>
     <!ELEMENT nights (#PCDATA)>
     <!ELEMENT stars (#PCDATA)>
@@ -24,24 +24,60 @@
 ]>
 
 <categories>
-    <category type="example">
+    <category type="beach">
         <package>
-        <name></name>
-        <description></description>
-        <cost></cost>
-        <days></days>
-        <nights></nights>
-        <stars></stars>
-        <accomodation>
-            <location country="country">
-                <city></city>
-            </location>
-            <additionalcost></additionalcost> 
-        </accomodation>
-        <coupon></coupon>
-        <reviews></reviews>
-        <picture></picture>
-        <URL></URL>
+            <name>Fun in the Sun Holidays</name>
+            <description>Provides group holiday organisation services for families, friends, couples and large groups.</description>
+            <cost>$2000 &AUD;</cost>
+            <days>5</days>
+            <nights>4</nights>
+            <stars>3.5</stars>
+            <accomodation>
+                <location country="AUS">
+                    <city>Sydney</city>
+                </location>
+                <additionalcost>$100 per head</additionalcost> 
+            </accomodation>
+            <coupon>5% off per extra person (>2 people)</coupon>
+            <reviews>"Had a wonderful time away with my wife! Fun in the Sun Holiday services organised a relaxing holiday that took away the stress! - Billy Bob"</reviews>
+            <reviews>"Fun in the Sun Holidays provided some good times for me and my mates - Noah Guy"</reviews>
+            <picture>images\jared-lisack-24nq2Ql8TFE-unsplash.jpg</picture>
+            <URL>https://www.fitsaus.com.au</URL>
+        </package>
+        <package>
+            <name>Sunny Getaway</name>
+            <description>Australia-wide getaway holidays for you and your family.</description>
+            <cost>$1500 &AUD;</cost>
+            <days>4</days>
+            <nights>3</nights>
+            <stars>4.25</stars>
+            <accomodation>
+                <location country="AUS">
+                    <city>Gold Coast</city>
+                </location>
+                <additionalcost>included</additionalcost> 
+            </accomodation>
+            <reviews>"Had a blast sand dunning and snorkeling with the family! Will definitely organise another holiday soon - Kyle Rye"</reviews>
+            <picture>images\road-trip-with-raj-kKMJimDBQBY-unsplash.jpg</picture>
+            <URL>https://www.sunnygetaway.com.au</URL>
+        </package>
+        <package>
+            <name>Beachside Bargains</name>
+            <description>Cheap beachy holidays for fun loving couples and families!</description>
+            <cost>$200 &AUD;</cost>
+            <days>2</days>
+            <nights>1</nights>
+            <stars>2.5</stars>
+            <accomodation>
+                <location country="AUS">
+                    <city>Central Coast</city>
+                </location>
+                <additionalcost>included</additionalcost> 
+            </accomodation>
+            <coupon>10% off per extra person (>5 people)</coupon>
+            <reviews>"The seagulls were too loud - Frankie Fry"</reviews>
+            <picture>images\shawnn-tan-vV7dgoL94Ig-unsplash.jpg</picture>
+            <URL>https://www.beachsidebgs.com.au</URL>
         </package>
     </category>
 </categories>

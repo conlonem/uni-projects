@@ -13,7 +13,7 @@
     <!ELEMENT name (#PCDATA)>
     <!ELEMENT description (#PCDATA)>
     <!ELEMENT cost (#PCDATA)>
-    <!ENTITY AUD "Australian Dollar">
+    <!ENTITY AUD "Australian Dollars">
     <!ELEMENT days (#PCDATA)>
     <!ELEMENT nights (#PCDATA)>
     <!ELEMENT stars (#PCDATA)>
@@ -26,44 +26,61 @@
 <categories>
     <category type="adventure">
         <package>
-        <name>Offroad Adventures</name>
-        <description>This package includes adventurous fun for everyone. 
-        Take to the off roads and see the wonders Newcastle has to offer with this limited offer. 
-        Don't miss out!</description>
-        <cost>$1500 (AUD)</cost>
-        <days>5</days>
-        <nights>4</nights>
-        <stars>3</stars>
-        <accomodation>
-            <location country="AUS">
-                <city>Newcastle</city>
-            </location>
-            <additionalcost>included</additionalcost> 
-        </accomodation>
-        <coupon></coupon>
-        <reviews>"Coolest holiday adventure in NSW - Jane Smith"</reviews>
-        <reviews>"Loved riding down the sand dunes in the FWDs - Jessica Sampson"</reviews>
-        <picture>images\austin-distel-h1RW-NFtUyc-unsplash.jpg</picture>
-        <URL>https//:www.offroadadventures.com.au</URL>
+            <name>Offroad Adventures</name>
+            <description>This package includes adventurous fun for everyone. 
+            Take to the off roads and see the wonders Newcastle has to offer with this limited offer. 
+            Don't miss out!</description>
+            <cost>$1500 &AUD;</cost>
+            <days>5</days>
+            <nights>4</nights>
+            <stars>3</stars>
+            <accomodation>
+                <location country="AUS">
+                    <city>Newcastle</city>
+                </location>
+                <additionalcost>included</additionalcost> 
+            </accomodation>
+            <reviews>"Coolest holiday adventure in NSW - Jane Smith"</reviews>
+            <reviews>"Loved riding down the sand dunes in the FWDs - Jessica Sampson"</reviews>
+            <picture>images\matthew-foulds-Bae7oqEB0d8-unsplash.jpg</picture>
+            <URL>https//:www.offroadadventures.com.au</URL>
         </package>
         <package>
-        <name>Adventure Experiences</name>
-        <description></description>
-        <cost>$850 (AUD)</cost>
-        <days>3</days>
-        <nights>2</nights>
-        <stars>4</stars>
-        <accomodation>
-            <location country="AUS">
-                <city>Blue Mountains</city>
-            </location>
-            <additionalcost>200</additionalcost> 
-        </accomodation>
-        <coupon></coupon>
-        <reviews>"Coolest holiday adventure in NSW - Jane Smith"</reviews>
-        <reviews>"Loved riding down the sand dunes in the FWDs - Jessica Sampson"</reviews>
-        <picture>images\austin-distel-h1RW-NFtUyc-unsplash.jpg</picture>
-        <URL>https//:www.offroadadventures.com.au</URL>
+            <name>Alpaca Lunch</name>
+            <description>Your link to adventure filled holidays. And they’ll pack the lunch!</description>
+            <cost>$850 &AUD;</cost>
+            <days>3</days>
+            <nights>2</nights>
+            <stars>4</stars>
+            <accomodation>
+                <location country="AUS">
+                    <city>Blue Mountains</city>
+                </location>
+                <additionalcost>200</additionalcost> 
+            </accomodation>
+            <coupon>$50 &AUD; off when you write a review</coupon>
+            <reviews>"A perfect adrenaline filled holiday! If only I didn’t break my ankle, I wanted it to last forever! - Penelope Pepper"</reviews>
+            <picture>images\syed-hadi-naqvi-Pv7z1gE61Ew-unsplash.jpg</picture>
+            <URL>https://www.alpacalunchaustralia.com.au</URL>
+        </package>
+        <package>
+            <name>RUN! Adventures</name>
+            <description>Adventurous holidays organised for any go getter!</description>
+            <cost>$600 &AUD;</cost>
+            <days>7</days>
+            <nights>6</nights>
+            <stars>4.5</stars>
+            <accomodation>
+                <location country="AUS">
+                    <city>Daintree National Park</city>
+                </location>
+                <additionalcost>included</additionalcost> 
+            </accomodation>
+            <coupon></coupon>
+            <reviews>"Had an awesome time running from reality. Bungee jumping was a blast and super cheap too! - Cameron Hunt"</reviews>
+            <reviews>"I was too scared to sky-dive into a volcano but I had fun regardless! - Stephanie Brimble"</reviews>
+            <picture>images\bailey-mahon-nPTVAeudiDo-unsplash.jpg</picture>
+            <URL>https://www.runadventures.com.au</URL>
         </package>
     </category>
 </categories>

@@ -13,7 +13,7 @@
     <!ELEMENT name (#PCDATA)>
     <!ELEMENT description (#PCDATA)>
     <!ELEMENT cost (#PCDATA)>
-    <!ENTITY AUD "Australian Dollar">
+    <!ENTITY AUD "Australian Dollars">
     <!ELEMENT days (#PCDATA)>
     <!ELEMENT nights (#PCDATA)>
     <!ELEMENT stars (#PCDATA)>
