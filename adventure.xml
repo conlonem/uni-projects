@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE categories [
+    <!ELEMENT categories (category+)>
+    <!ELEMENT category (package+)>
+    <!ATTLIST category type CDATA #REQUIRED>
+    <!ELEMENT package (name, description, cost, days, nights, stars, accomodation+, coupon?, reviews*, picture+, URL)>
+    <!ELEMENT accomodation (location, additionalcost)>
+    <!ELEMENT location (city)>
+    <!ATTLIST location country CDATA #REQUIRED>
+    <!ELEMENT city (#PCDATA)>
+    <!ELEMENT additionalcost (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+    <!ELEMENT cost (#PCDATA)>
+    <!ENTITY AUD "Australian Dollar">
+    <!ELEMENT days (#PCDATA)>
+    <!ELEMENT nights (#PCDATA)>
+    <!ELEMENT stars (#PCDATA)>
+    <!ELEMENT coupon (#PCDATA)>
+    <!ELEMENT reviews (#PCDATA)>
+    <!ELEMENT picture (#PCDATA)>
+    <!ELEMENT URL (#PCDATA)>
+]>
+
+<categories>
+    <category type="adventure">
+        <package>
+        <name>Offroad Adventures</name>
+        <description>This package includes adventurous fun for everyone. 
+        Take to the off roads and see the wonders Newcastle has to offer with this limited offer. 
+        Don't miss out!</description>
+        <cost>$1500 (AUD)</cost>
+        <days>5</days>
+        <nights>4</nights>
+        <stars>3</stars>
+        <accomodation>
+            <location country="AUS">
+                <city>Newcastle</city>
+            </location>
+            <additionalcost>included</additionalcost> 
+        </accomodation>
+        <coupon></coupon>
+        <reviews>"Coolest holiday adventure in NSW - Jane Smith"</reviews>
+        <reviews>"Loved riding down the sand dunes in the FWDs - Jessica Sampson"</reviews>
+        <picture>images\austin-distel-h1RW-NFtUyc-unsplash.jpg</picture>
+        <URL>https//:www.offroadadventures.com.au</URL>
+        </package>
+        <package>
+        <name>Adventure Experiences</name>
+        <description></description>
+        <cost>$850 (AUD)</cost>
+        <days>3</days>
+        <nights>2</nights>
+        <stars>4</stars>
+        <accomodation>
+            <location country="AUS">
+                <city>Blue Mountains</city>
+            </location>
+            <additionalcost>200</additionalcost> 
+        </accomodation>
+        <coupon></coupon>
+        <reviews>"Coolest holiday adventure in NSW - Jane Smith"</reviews>
+        <reviews>"Loved riding down the sand dunes in the FWDs - Jessica Sampson"</reviews>
+        <picture>images\austin-distel-h1RW-NFtUyc-unsplash.jpg</picture>
+        <URL>https//:www.offroadadventures.com.au</URL>
+        </package>
+    </category>
+</categories>
