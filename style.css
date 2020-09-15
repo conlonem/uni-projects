@@ -10,6 +10,11 @@ body {
     grid-template-rows: 5em 5em auto 5em auto;
 }
 
+a {
+    line-height: 120px;
+    text-align: center;
+}
+
 .navimg {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
@@ -22,15 +27,14 @@ body {
     width: 50%;
 }
 
+.navabout, .navhome, .navpkg {
+    text-align: center;
+}
+
 .navhome {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     background-color: blueviolet;
-}
-
-.navhome a {
-    margin: 1em 1em 1em 1em;
-    padding: 1em 1em 1em 1em;
 }
 
 .navabout {
