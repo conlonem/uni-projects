@@ -13,6 +13,7 @@ body {
 a {
     line-height: 120px;
     text-align: center;
+    color: #3a9bdb;
 }
 
 .navimg {
@@ -27,7 +28,7 @@ a {
     width: 50%;
 }
 
-.navabout, .navhome, .navpkg {
+.navabout, .navhome, .navpkg1, .navpkg2 {
     text-align: center;
 }
 
@@ -43,10 +44,16 @@ a {
     background-color: crimson;
 }
 
-.navpkg {
+.navpkg1 {
     grid-column: 4 / 5;
     grid-row: 1 / 2;
     background-color: yellow;
+}
+
+.navpkg1 {
+    grid-column: 5 / 6;
+    grid-row: 1 / 2;
+    background-color: blueviolet;
 }
 
 .title {
