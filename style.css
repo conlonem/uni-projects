@@ -2,6 +2,7 @@ body {
     background: url(images/background.png) no-repeat center center fixed;
     background-size: cover;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 1cm;
 }
 
 .grid {
@@ -13,7 +14,24 @@ body {
 a {
     line-height: 120px;
     text-align: center;
+    background-color: white;
+}
+
+a:link {
     color: #3a9bdb;
+}
+
+a:visited {
+    color: #1f67aa;
+}
+
+a:active {
+    color: #f0f7fc;
+}
+
+a:hover {
+    color: #7cb4e7;
+    font-size: larger;
 }
 
 .navimg {
@@ -28,7 +46,7 @@ a {
     width: 50%;
 }
 
-.navabout, .navhome, .navpkg1, .navpkg2 {
+.navabout, .navhome, .navpkg1, .navpkg2, .navimg {
     text-align: center;
 }
 
@@ -57,13 +75,16 @@ a {
 }
 
 .title {
-    grid-column: 1 / 5;
+    grid-column: 1 / 6;
+    text-align: center;
     grid-row: 2 / 3;
     align-self: center;
     background-color: yellowgreen;
 }
 
-.title h1 {
+h1, h2 {
+    color: #1f67aa;
+    text-transform: uppercase;
     margin: 0em;
     padding: 0.5em 0.5em 0.5em 0.5em;
 }
@@ -75,15 +96,11 @@ a {
 }
 
 .about {
-    grid-column: 1 / 5;
+    grid-column: 1 / 6;
+    text-align: center;
     grid-row: 4 / 5;
     align-self: center;
     background-color: chocolate;
-}
-
-.about h2 {
-    margin: 0px;
-    padding: 0.5em 0.5em 0.5em 0.5em;
 }
 
 #about-p {
@@ -92,7 +109,7 @@ a {
     background-color: darkolivegreen;
 }
 
-.about-p p {
+p {
     margin: 0px;
     padding: 1em 1em 1em 1em;
 }
