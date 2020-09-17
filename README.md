@@ -1,19 +1,34 @@
-# uni-projects
-All my university assignments/projects
+# credits
+Image credits
 
-karsten-winegeart-qyYQ9wKl1-U-unsplash.jpg
-Photo by Karsten Winegeart (https://unsplash.com/@karsten116?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash (https://unsplash.com/t/travel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+images/karsten-winegeart-qyYQ9wKl1-U-unsplash.jpg
+https://unsplash.com/photos/qyYQ9wKl1-U
+Photo by Karsten Winegeart (https://unsplash.com/@karsten116) on Unsplash (https://unsplash.com/)
 
-<span>Photo by <a href="https://unsplash.com/@austindistel?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Austin Distel</a> on <a href="https://unsplash.com/s/photos/travel-agent?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+images/austin-distel-h1RW-NFtUyc-unsplash.jpg
+https://unsplash.com/photos/h1RW-NFtUyc
+Photo by Austin Distel (https://unsplash.com/@austindistel) on Unsplash (https://unsplash.com/)
 
-<span>Photo by <a href="https://unsplash.com/@fouldsmatt?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Matthew Foulds</a> on <a href="https://unsplash.com/s/photos/four-wheel-drive?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+images/matthew-foulds-Bae7oqEB0d8-unsplash.jpg
+https://unsplash.com/photos/Bae7oqEB0d8
+Photo by Matthew Foulds (https://unsplash.com/@fouldsmatt) on Unsplash (https://unsplash.com/)
 
-<span>Photo by <a href="https://unsplash.com/@syedhadi16?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Syed Hadi Naqvi</a> on <a href="https://unsplash.com/s/photos/adventure-australia?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+images/syed-hadi-naqvi-Pv7z1gE61Ew-unsplash.jpg
+https://unsplash.com/photos/Pv7z1gE61Ew
+Photo by Syed Hadi Naqvi (https://unsplash.com/@syedhadi16) on Unsplash (https://unsplash.com/)
 
-<span>Photo by <a href="https://unsplash.com/@stuartdavies?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Stuart Davies</a> on <a href="https://unsplash.com/s/photos/adventure-australia?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+images/jared-lisack-24nq2Ql8TFE-unsplash.jpg
+https://unsplash.com/photos/24nq2Ql8TFE
+Photo by Jared Lisack (https://unsplash.com/@jredl) on Unsplash (https://unsplash.com/)
 
-<span>Photo by <a href="https://unsplash.com/@roadtripwithraj?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Road Trip with Raj</a> on <a href="https://unsplash.com/s/photos/beach-australia?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+images\road-trip-with-raj-kKMJimDBQBY-unsplash.jpg
+https://unsplash.com/photos/kKMJimDBQBY
+Photo by Road Trip with Raj (https://unsplash.com/@roadtripwithraj) on Unsplash (https://unsplash.com/)
 
-<span>Photo by <a href="https://unsplash.com/@herclouds?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Shawnn Tan</a> on <a href="https://unsplash.com/s/photos/australia-beach?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+images/shawnn-tan-vV7dgoL94Ig-unsplash.jpg
+https://unsplash.com/photos/vV7dgoL94Ig
+Photo by Shawnn Tan (https://unsplash.com/@herclouds) on Unsplash (https://unsplash.com/)
 
-<span>Photo by <a href="https://unsplash.com/@baileymahon?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">BAILEY MAHON</a> on <a href="https://unsplash.com/s/photos/australia-outback?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+images/bailey-mahon-nPTVAeudiDo-unsplash.jpg
+https://unsplash.com/photos/nPTVAeudiDo
+Photo by Bailey Mahon (https://unsplash.com/@baileymahon) on Unsplash (https://unsplash.com/)

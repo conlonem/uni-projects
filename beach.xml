@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-
+<!--Date created: 28/8/20-->
+<!--beach.xml-->
+<!--Author: Emily Conlon (c3331128)-->
 <!DOCTYPE categories [
     <!ELEMENT categories (category+)>
     <!ELEMENT category (package+)>
@@ -41,7 +43,7 @@
             <coupon>5% off per extra person (>2 people)</coupon>
             <reviews>"Had a wonderful time away with my wife! Fun in the Sun Holiday services organised a relaxing holiday that took away the stress! - Billy Bob"</reviews>
             <reviews>"Fun in the Sun Holidays provided some good times for me and my mates - Noah Guy"</reviews>
-            <picture>images\jared-lisack-24nq2Ql8TFE-unsplash.jpg</picture>
+            <picture>images/jared-lisack-24nq2Ql8TFE-unsplash.jpg</picture>
             <URL>https://www.fitsaus.com.au</URL>
         </package>
         <package>
@@ -58,7 +60,7 @@
                 <additionalcost>included</additionalcost> 
             </accomodation>
             <reviews>"Had a blast sand dunning and snorkeling with the family! Will definitely organise another holiday soon - Kyle Rye"</reviews>
-            <picture>images\road-trip-with-raj-kKMJimDBQBY-unsplash.jpg</picture>
+            <picture>images/road-trip-with-raj-kKMJimDBQBY-unsplash.jpg</picture>
             <URL>https://www.sunnygetaway.com.au</URL>
         </package>
         <package>
@@ -76,7 +78,7 @@
             </accomodation>
             <coupon>10% off per extra person (>5 people)</coupon>
             <reviews>"The seagulls were too loud - Frankie Fry"</reviews>
-            <picture>images\shawnn-tan-vV7dgoL94Ig-unsplash.jpg</picture>
+            <picture>images/shawnn-tan-vV7dgoL94Ig-unsplash.jpg</picture>
             <URL>https://www.beachsidebgs.com.au</URL>
         </package>
     </category>

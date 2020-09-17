@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-
+<!--Date created: 28/8/20-->
+<!--template.xml-->
+<!--Author: Emily Conlon (c3331128)-->
 <!DOCTYPE categories [
     <!ELEMENT categories (category+)>
     <!ELEMENT category (package+)>

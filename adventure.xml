@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-
+<!--Date created: 28/8/20-->
+<!--adventure.xml-->
+<!--Author: Emily Conlon (c3331128)-->
 <!DOCTYPE categories [
     <!ELEMENT categories (category+)>
     <!ELEMENT category (package+)>
@@ -42,7 +44,7 @@
             </accomodation>
             <reviews>"Coolest holiday adventure in NSW - Jane Smith"</reviews>
             <reviews>"Loved riding down the sand dunes in the FWDs - Jessica Sampson"</reviews>
-            <picture>images\matthew-foulds-Bae7oqEB0d8-unsplash.jpg</picture>
+            <picture>images/matthew-foulds-Bae7oqEB0d8-unsplash.jpg</picture>
             <URL>https//:www.offroadadventures.com.au</URL>
         </package>
         <package>
@@ -60,7 +62,7 @@
             </accomodation>
             <coupon>$50 &AUD; off when you write a review</coupon>
             <reviews>"A perfect adrenaline filled holiday! If only I didn’t break my ankle, I wanted it to last forever! - Penelope Pepper"</reviews>
-            <picture>images\syed-hadi-naqvi-Pv7z1gE61Ew-unsplash.jpg</picture>
+            <picture>images/syed-hadi-naqvi-Pv7z1gE61Ew-unsplash.jpg</picture>
             <URL>https://www.alpacalunchaustralia.com.au</URL>
         </package>
         <package>
@@ -79,7 +81,7 @@
             <coupon></coupon>
             <reviews>"Had an awesome time running from reality. Bungee jumping was a blast and super cheap too! - Cameron Hunt"</reviews>
             <reviews>"I was too scared to sky-dive into a volcano but I had fun regardless! - Stephanie Brimble"</reviews>
-            <picture>images\bailey-mahon-nPTVAeudiDo-unsplash.jpg</picture>
+            <picture>images/bailey-mahon-nPTVAeudiDo-unsplash.jpg</picture>
             <URL>https://www.runadventures.com.au</URL>
         </package>
     </category>
