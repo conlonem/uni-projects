@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>goHoliday: Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        input, textarea, select {
+            display: block;
+            margin: 0.5em;
+        }
+
+        #coupon, #pricing-included, #covid-check, #button {
+            display: inline;
+        }
+
+    </style>
+  </head>
+  <body>
+    <h1>Contact Us</h1>
+    <form action="http://jkorpela.fi/cgi-bin/echo.cgi" onsubmit="return validate()" method="POST">
+        <h2>About you: </h2>
+        <label for="givenname">First Name *</label>
+        <br>
+        <input type="text" id="givenname" name="givenname">
+
+        <label for="surname">Last Name *</label>
+        <br>
+        <input type="text" id="surname" name="surname">
+
+        <label for="email-address">Email Address *</label>
+        <br>
+        <input type="text" id="email-address" name="email-address">
+        <label for="prev-holiday">Please indicate the number of previous holidays you have submitted with us: </label>
+        <br>
+        <input type="number" id="prev-holiday" name="prev-holiday" min="0" max="25">
+        <br>
+        <label for="covid-check">Have you travelled overseas in the last 12 months? *</label>
+        <input type="radio" id="covid-check" name="covid-check" value="yes">
+        <label for="covid-check">Yes</label>
+        <input type="radio" id="covid-check" name="covid-check" value="no" checked>
+        <label for="covid-check">No</label>
+
+        <hr>
+        <h2>Information about your Suggested Holiday Package: </h2>
+        <label for="holiday-name">Holiday Name</label>
+        <br>
+        <input type="text" id="holiday-name" name="holiday-name">
+        <label for="category">Holiday category *</label>
+        <select name="category" id="category">
+            <option value="beach">Beach</option>
+            <option value="adventure">Adventure</option>
+            <option value="luxury">Luxury</option>
+            <option value="other">Other</option>
+        </select>
+        <br>
+        <label for="additional-info">Please provide more information: </label>
+        <textarea id="additional-info" name="additional-info" rows="5" cols="40"></textarea>
+        <br>
+        <label for="pricing-included">Is the accomodation pricing included?</label>
+        <input type="radio" id="pricing-included" name="pricing-included" value="yes">
+        <label for="pricing-included">Yes</label>
+        <input type="radio" id="pricing-included" name="pricing-included" value="no">
+        <label for="pricing-included">No</label>
+        <br>
+        <label for="location">Holiday location: State</label>
+        <select name="state" id="location">
+            <option value="NSW">NSW</option>
+            <option value="QLD">QLD</option>
+            <option value="VIC">VIC</option>
+            <option value="NT">NT</option>
+            <option value="SA">SA</option>
+            <option value="WA">WA</option>
+            <option value="TAS">TAS</option>
+            <option value="ACT">ACT</option>
+        </select>
+        <br>
+        <label for="city">Holiday location: City</label>
+        <input type="text" id="city"name="city">
+        <br>
+        <label for="coupon">Is there a coupon available?</label>
+        <input type="radio" id="coupon" name="coupon" value="yes">
+        <label for="coupon">Yes</label>
+        <input type="radio" id="coupon" name="coupon" value="no">
+        <label for="coupon">No</label>
+        <br> 
+        <input type="reset" id="button" value="Clear">
+        <input type="submit" id="button" value="Submit">
+    </form>
+    <span>© 2020 Emily Conlon. All rights reserved.</span>
+    <script>
+        function validate() {
+            
+            var fName = checkFName();
+            var lName = checkLName();
+            var vEmail = checkEmail();
+            var cCovid = checkCovid();
+            var cCategory = checkCategory();
+
+            if ((fName) && (lName) && (vEmail) && (cCovid) && (cCategory) == true) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+        
+        function checkFName() {
+            if (document.easyform.givenname.value == "") {
+                alert("Please enter your first name.");
+                return false;
+            } else {
+                return true;
+            }
+        }
+
+        function checkLName() {
+            if (document.easyform.surname.value == "") {
+                alert("Please enter your last name.");
+                return false;
+            } else {
+                return true;
+            }
+        }
+
+        function checkCovid() {
+            if (!document.easyform.covid-check[0].checked && !document.easyform.covid-check[1].checked) {
+                alert("Please indicate whether you have travelled in the last 12 months.");
+                return false;
+            } else {
+                return true;
+            }
+        }
+
+        function checkEmail() {
+            var emailAddress = /\S+@\S+\.\S+/;
+            if (!document.easyform.email-address.value.match(emailAddress)) {
+                alert("Please enter a valid email address.");
+                return false;
+            } else {
+                return true;
+            }
+        }
+
+        function checkCategory() {
+            if (document.easyform.category.selectedIndex == 0) {
+                alert("Please indicate the holiday category.")
+                return false;
+            } else {
+                return true;
+            }
+        }
+    </script>
+  </body>
+</html>
